@@ -1,0 +1,300 @@
+{
+  "reseau": "Turkcell",
+  
+  "themeColor": "#303f9f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": false,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:gannon.ovh"],
+      "username": "jojo",
+      "credential": "pass"
+    }]
+  },
+
+
+  "background" : {
+    "Türk Bayrağı": "back001.jpg",
+    "Destiny": "back002.jpg",
+    "Guitare": "01.jpg",
+    "Los Santos": "02.jpg",
+    "Poursuite": "03.jpg",
+    "Prenses": "04.jpg",
+    "Police boom": "05.jpg",
+    "Trevor & Michael": "06.jpg",
+    "San Andreas": "07.jpg",
+    "Cité": "08.jpg",
+    "Ciel & Forêt": "09.jpg",
+    "Forêt Colorer": "10.jpg",
+    "Vague Géante": "11.jpg",
+    "Lion": "12.jpg",
+    "Planète": "13.jpg",
+    "Rose": "14.jpg",
+    "Bleu": "15.jpg",
+    "Noir": "16.jpg",
+    "Chocolat": "17.jpg",
+    "Assassins Creed": "18.jpg",
+    "Stalactite": "19.jpg",
+    "Origin": "20.jpg",
+    "Pacman": "21.jpg",
+    "Custom": "URL"
+  },
+  "background_default": {
+    "label": "Prenses",
+    "value": "04.jpg"
+  },
+
+
+  "coque": {
+    "Sansumg S8": "s8.png",
+    "Iphone X": "iphonex.png"
+  },
+  "coque_default": {
+    "label": "Samsung S8",
+    "value": "s8.png"
+  },
+
+
+  "serviceCall": [
+    {
+      "display": "155 - EGM",
+      "icon": "/html/static/img/icons_app/policier.png",
+      "subMenu": [
+        {
+          "title": "Acil İhbar - Mesaj Gönder",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        },
+        {
+          "title": "Acil İhbar - Ara",
+          "eventName": "gcphone:autoCallNumber",
+          "type": {
+            "number": "155"
+          }
+        }
+      ]
+    },
+    {
+      "display": "156 - JANDARMA",
+      "icon": "/html/static/img/icons_app/fib.png",
+      "subMenu": [
+        {
+          "title": "Acil İhbar",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "jandarma"
+          }
+        }
+      ]
+    },
+        {
+      "display": "112 - Acil Servis",
+      "icon": "/html/static/img/icons_app/ambulancier.png",
+      "subMenu": [
+        {
+          "title": "Acil İhbar - Mesaj Gönder",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "ambulance"
+          }
+        },
+        {
+          "title": "Acil İhbar - Ara",
+          "eventName": "gcphone:autoCallNumber",
+          "type": {
+            "number": "112"
+          }
+        }
+      ]
+    },
+    {
+      "display": "110 - İtfaiye",
+      "icon": "/html/static/img/icons_app/itfaiye.png",
+      "subMenu": [
+        {
+          "title": "Acil İhbar - Mesaj Gönder",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "itfaiye"
+          }
+        },
+        {
+          "title": "Acil İhbar - Ara",
+          "eventName": "gcphone:autoCallNumber",
+          "type": {
+            "number": "110"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Oto Sanayi (Mekanik)",
+      "icon": "/html/static/img/icons_app/mecano.png",
+      "subMenu": [
+        {
+          "title": "Mesaj Gönder",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+          "number": "mecano"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Emlak Bürosu",
+      "icon": "/html/static/img/icons_app/agent.png",
+      "subMenu": [
+        {
+          "title": "Mesaj Gönder",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "realestateagent"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Başkan",
+      "icon": "/html/static/img/icons_app/state.png",
+      "subMenu": [
+        {
+          "title": "İstek - Öneri - Şikayet",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "state"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Köfte & Kokoreç",
+      "icon": "/html/static/img/icons_app/epicerie.png",
+      "subMenu": [
+        {
+          "title": "Sipariş Ver",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "foodtruck"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Türkiye İş Bankası",
+      "icon": "/html/static/img/icons_app/bank.png",
+      "subMenu": [
+        {
+          "title": "İletişim",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "banker"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Vanilya Pavyon",
+      "icon": "/html/static/img/icons_app/unicorn.png",
+      "subMenu": [
+        {
+          "title": "İletişim",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "unicorn"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Taksi",
+      "icon": "/html/static/img/icons_app/taxi.png",
+      "subMenu": [
+        {
+          "title": "Çağrı",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "taxi"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Telefon",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Mesajlar",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Kişiler",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Ayarlar",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "İş Bankası Mobil",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "inHomePage": false
+    },
+    {
+      "name": "Borsa",
+      "icons": "/html/static/img/icons_app/bourse.png",
+      "routeName": "bourse",
+      "enabled": true
+    },
+    {
+      "name": "Kamera",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Whatsapp",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat"
+    },
+    {
+      "name": "9GAG",
+      "icons": "/html/static/img/icons_app/9gag.png",
+      "routeName": "9gag"
+    }
+  ]
+}

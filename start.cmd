@@ -1,0 +1,1 @@
+C:\FKedit\run.cmd +exec server.cfg
