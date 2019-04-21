@@ -1,6 +1,6 @@
 # esx_drugs
-
-Adds the well-known drugs for the people who want to make quick money. Weed Field require you to run around and harvest weed plants, process and then sell at the beach of San Andreas!
+## Requirements
+ - [esx_policejob](https://github.com/ESX-Org/esx_policejob)
 
 ## Download & Installation
 
@@ -19,7 +19,6 @@ git clone https://github.com/ESX-Org/esx_drugs [esx]/esx_drugs
 - Download https://github.com/ESX-Org/esx_drugs/archive/master.zip
 - Put it in the `[esx]` directory
 
-## Installation
 - Import `esx_drugs.sql` in your database
 - Add this in your `server.cfg`:
 

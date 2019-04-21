@@ -1,8 +1,8 @@
 Config                            = {}
 
 Config.DrawDistance               = 100.0
-Config.MarkerType                 = 1
-Config.MarkerSize                 = { x = 1.5, y = 1.5, z = 1.0 }
+Config.MarkerType                 = 6
+Config.MarkerSize                 = { x = 1.1, y = 1.1, z = 1.0 }
 Config.MarkerColor                = { r = 50, g = 50, b = 204 }
 
 Config.EnablePlayerManagement     = true
@@ -26,49 +26,49 @@ Config.PoliceStations = {
 	LSPD = {
 
 		Blip = {
-			Pos     = { x = 425.130, y = -979.558, z = 30.711 },
-			Sprite  = 60,
+			Pos     = { x = -442.75, y = 6016.77, z = 31.35 },
+			Sprite  = 526,
 			Display = 4,
 			Scale   = 1.2,
-			--Colour  = 29,
+			Colour  = 31,
 		},
 		-- https://wiki.fivem.net/wiki/Weapons
 		AuthorizedWeapons = {
-			{ name = 'WEAPON_NIGHTSTICK',       price = 200 },
-			{ name = 'WEAPON_FLASHLIGHT',     price = 300 },
-			{ name = 'WEAPON_STUNGUN',       price = 1250 },
-			{ name = 'WEAPON_PISTOL',     price = 1500 },
-			{ name = 'WEAPON_ASSAULTSMG',      price = 600 },
-			{ name = 'WEAPON_PUMPSHOTGUN',          price = 500 },
+			{ name = 'WEAPON_NIGHTSTICK',       price = 1000 },
+			{ name = 'WEAPON_FLASHLIGHT',     price = 1000 },
+			{ name = 'WEAPON_STUNGUN',       price = 1000 },
+			{ name = 'WEAPON_PISTOL',     price = 10000 },
+			{ name = 'WEAPON_ASSAULTSMG',      price = 20000 },
+			{ name = 'WEAPON_PUMPSHOTGUN',          price = 20000 },
 		},
 
 		Cloakrooms = {
-			{ x = 452.600, y = -993.306, z = 29.750 },
+			{ x = -448.68, y = 6008.17, z = 31.72 },
 		},
 
 		Armories = {
-			{ x = 451.699, y = -980.356, z = 29.689 },
+			{ x = -449.63, y = 6010.52, z = 31.72 },
 		},
 
 		Vehicles = {
 			{
-				Spawner    = { x = 454.69, y = -1017.4, z = 27.430 },
-				SpawnPoint = { x = 438.42, y = -1018.3, z = 27.757 },
-				Heading    = 90.0,
+				Spawner    = { x = -476.45, y = 6031.78, z = 31.35 },
+				SpawnPoint = { x = -465.36, y = 6021.05, z = 31.35 },
+				Heading    = 312.35,
 			}
 		},
 
 		Helicopters = {
 			{
-				Spawner    = { x = 466.477, y = -982.819, z = 42.691 },
-				SpawnPoint = { x = 450.04, y = -981.14, z = 42.691 },
-				Heading    = 0.0,
+				Spawner    = { x = -465.46, y = 5999.59, z = 31.35 },
+				SpawnPoint = { x = -475.6, y = 5988.33, z = 31.35 },
+				Heading    = 321.26,
 			}
 		},
 
 		VehicleDeleters = {
-			{ x = 462.74, y = -1014.4, z = 27.065 },
-			{ x = 462.40, y = -1019.7, z = 27.104 },
+			{ x = -451.54, y = 5998.24, z = 31.35 },
+			--{ x = 462.40, y = -1019.7, z = 27.104 },
 		},
 
 		BossActions = {
@@ -82,70 +82,45 @@ Config.PoliceStations = {
 -- https://wiki.fivem.net/wiki/Vehicles
 Config.AuthorizedVehicles = {
 	Shared = {
-		{
-			model = 'police2',
-			label = '🚔 Polis Devriye 1'
-		},
-		{
-			model = 'police3',
-			label = '🚔 Polis Devriye 2'
-		},
+		
 		{
 			model = 'police4',
-			label = '🚔 Polis Devriye 3'
+			label = 'Şerif Devriye 1'
 		},
-		{
-			model = 'police5',
-			label = '🚔 Polis Devriye 4'
-		},
+
 		{
 			model = 'police6',
-			label = '🚔 Polis Devriye 5'
+			label = 'Şerif Devriye 2'
 		},
-		{
-			model = 'ghipso2',
-			label = '🚔 Polis Devriye 6'
-		},
+
 		{
 			model = 'police7',
-			label = '🚔 Polis Devriye 7'
+			label = 'Şerif Devriye 3'
 		},
-		{
-			model = 'police8',
-			label = '🚔 Polis Devriye 8'
-		},
+
 	    {
 			model = 'ghispo2',
-			label = '🚔 Polis Devriye 9 (+Hız)'
+			label = 'Şerif Devriye 4'
 		},
 		{
 			model = 'fbi',
-			label = '🚨 Subay Devriye 1'
+			label = 'Federal 1'
 		},
 		{
 			model = 'fbi2',
-			label = '🚨 Subay Devriye 2'
+			label = 'Federal 2'
 		},
-		{
-			model = 'bmw550',
-			label = '🚨 Subay Devriye 3'
-		},
+
 		{
 			model = 'policeb',
-			label = '🏍 Polis Motor 1'
+			label = 'Şerif Motor 1'
 		},
+
 		{
-			model = 'riot',
-			label = '🚓 Akrep'
+			model = 'pbus',
+			label = '🚓 Hapisane Aracı'
 		},
-		{
-			model = 'firetruk',
-			label = '🚓 Toma'
-		},
-		{
-			model = 'annihilator',
-			label = '🚁 Polis Helikopter'
-		},		
+
 
 
 	},
@@ -168,7 +143,14 @@ Config.AuthorizedVehicles = {
 	},
 
 	boss = {
-
+		{
+			model = 'fbi',
+			label = 'Federal 1'
+		},
+		{
+			model = 'fbi2',
+			label = 'Federal 2'
+		},
 	}
 }
 

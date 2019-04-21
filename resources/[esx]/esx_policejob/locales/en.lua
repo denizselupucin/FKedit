@@ -127,10 +127,10 @@ Locales['en'] = {
   ['police_stock'] = 'Polis Stoğu',
   -- Misc
   ['remove_prop'] = 'Objeyi silmek için ~INPUT_CONTEXT~ tuşuna basın.',
-  ['map_blip'] = 'Polis Karakolu',
+  ['map_blip'] = 'Sheriff Departmanı',
   -- Notifications
-  ['alert_police'] = '155 Koordine Merkezi',
-  ['phone_police'] = 'Emniyet Teşkilatı',
+  ['alert_police'] = '911 Koordine Merkezi',
+  ['phone_police'] = 'Sheriff Departmanı',
 
     -- Service
   ['service_max'] = 'you cannot enter service, max officers in service: %s/%s',

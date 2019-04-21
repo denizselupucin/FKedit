@@ -120,10 +120,6 @@ function OpenCloakroomMenu()
 		table.insert(elements, {label = _U('police_wear'), value = 'boss_wear'})
 	end
 
-	if Config.EnableNonFreemodePeds then
-		table.insert(elements, {label = ('NPC Polis'), value = 'sheriff_wear_freemode', maleModel = 's_m_y_cop_01', femaleModel = 's_m_y_cop_01'})
-		table.insert(elements, {label = ('NPC Yunus Polis'), value = 'sheriff_wear_freemode', maleModel = 's_m_y_hwaycop_01', femaleModel = 's_m_y_hwaycop_01'})
-	end
 
 	ESX.UI.Menu.CloseAll()
 

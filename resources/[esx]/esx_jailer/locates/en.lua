@@ -1,8 +1,8 @@
 Locales ['en'] = {
-	['blip_name']          = 'Mapushane',
+	['blip_name']          = 'Hapishane',
 	['judge']              = 'Hakim',
-	['escape_attempt']     = 'Mapushaneden kaçabileceğinimi sandın.',
-	['remaining_msg']      = 'Mapustan çıkmana ~b~%s~s~ saniye kaldı.',
+	['escape_attempt']     = 'Çakallık yapmaya çalıştın fakat başarısız oldu.',
+	['remaining_msg']      = 'Hapishaneden çıkmana ~b~%s~s~ saniye kaldı.',
 	['jailed_msg']         = '%s %s Dakika mapushanede.',
 	['unjailed']           = '%s Mapushanden çıktı.'
 }

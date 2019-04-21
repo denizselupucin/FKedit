@@ -4,12 +4,12 @@ Locales['en'] = {
 	
 	-- Menu
 	['securitycams_menu'] = 'Güvenlik Kameraları',
-	['bank_menu_selection'] = 'Türkiye İş Bankası',
-	['police_menu_selection'] = 'Polis Karakolu',
+	['bank_menu_selection'] = 'Banka',
+	['police_menu_selection'] = 'Sheriff Departman',
 	
 	-- In Cameras
-	['pacific_standard_bank'] = 'Türkiye İş Bankası',
-	['police_station'] = 'Polis Karakolu',
+	['pacific_standard_bank'] = 'Banka',
+	['police_station'] = 'Sheriff Departman',
 	
 	-- Pacific Standard Bank Cameras
 	['bcam'] = 'Ana Giriş',

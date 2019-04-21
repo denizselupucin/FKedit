@@ -373,7 +373,7 @@ CREATE TABLE IF NOT EXISTS `datastore` (
 INSERT INTO `datastore` (`id`, `name`, `label`, `shared`) VALUES
 	(1, 'society_ambulance', 'Ambulans', 1),
 	(2, 'user_mask', 'Maske', 0),
-	(4, 'property', 'Mulk', 0),
+	(4, 'property', 'Mülk', 0),
 	(6, 'society_taxi', 'Taksi', 1),
 	(8, 'society_unicorn', 'Pavyon', 1),
 	(10, 'society_avocat', 'Avukat', 1),
@@ -381,10 +381,10 @@ INSERT INTO `datastore` (`id`, `name`, `label`, `shared`) VALUES
 	(15, 'society_police', 'Polis', 1),
 	(16, 'society_taxi', 'Taksi', 1),
 	(17, 'society_mafia', 'Mafia', 1),
-	(18, 'society_carthief', 'Car Thief', 1),
-	(19, 'society_cartel', 'Ulkucu', 1),
-	(20, 'society_cartel', 'Ulkucu', 1),
-	(21, 'society_cartel', 'Ulkucu', 1);
+	(18, 'society_carthief', 'Araç Hırsızı', 1),
+	(19, 'society_cartel', 'Kartel', 1),
+	(20, 'society_cartel', 'Kartel', 1),
+	(21, 'society_cartel', 'Kartel', 1);
 /*!40000 ALTER TABLE `datastore` ENABLE KEYS */;
 
 -- tablo yapısı dökülüyor essentialmode.datastore_data

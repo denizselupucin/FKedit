@@ -957,10 +957,10 @@ Citizen.CreateThread(function()
 	for k,v in pairs(Config.LocationsForSpawn) do
 		local blip = AddBlipForCoord(v.x, v.y, v.z)
 
-		SetBlipSprite (blip, 353)
+		SetBlipSprite (blip, 357)
 		SetBlipDisplay(blip, 4)
 		SetBlipScale  (blip, 1.1)
-		SetBlipColour (blip, 1)
+		SetBlipColour (blip, 0)
 		SetBlipAsShortRange(blip, true)
 
 		BeginTextCommandSetBlipName("STRING")
@@ -975,7 +975,7 @@ Citizen.CreateThread(function ()
 	SetBlipSprite (blip, 490)
 	SetBlipDisplay(blip, 4)
 	SetBlipScale  (blip, 1.3)
-	SetBlipColour (blip, 3)
+	SetBlipColour (blip, 2)
 	SetBlipAsShortRange(blip, false)
 
 	BeginTextCommandSetBlipName("STRING")

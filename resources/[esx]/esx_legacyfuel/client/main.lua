@@ -626,6 +626,8 @@ local gas_stations = {
  	{ ['x'] = -94.4619,  ['y'] = 6419.594,  ['z'] = 31.489},
  	{ ['x'] = 2002.89,  ['y'] = 3775.61,  ['z'] = 32.18},
  	{ ['x'] = 176.93,  ['y'] = 6601.07,  ['z'] = 31.85},
+ 	{ ['x'] = 1208.74,  ['y'] = 2660.49,  ['z'] = 37.9},
+ 	{ ['x'] = 264.13,  ['y'] = 2607.85,  ['z'] = 44.98},
  	
 }
 
@@ -634,9 +636,9 @@ Citizen.CreateThread(function()
 		for k, v in ipairs(gas_stations) do
 			local blip = AddBlipForCoord(v.x, v.y, v.z)
 
-			SetBlipSprite(blip, 415)
+			SetBlipSprite(blip, 361)
 			SetBlipScale(blip, 1.1)
-			SetBlipColour(blip, 1)
+			SetBlipColour(blip, 6)
 			SetBlipDisplay(blip, 3)
 			SetBlipAsShortRange(blip, true)
 

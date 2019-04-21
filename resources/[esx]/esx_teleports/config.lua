@@ -34,6 +34,22 @@ Config.Teleporters = {
 		}
 	}
 
+	['Police Department'] = {
+		['Job'] = 'police',
+		['Enter'] = { 
+			['x'] = -449.67, 
+			['y'] = 6016.52, 
+			['z'] = 31.72,
+			['Information'] = '[E] Go Up' 
+		},
+
+		['Exit'] = {
+			['x'] = 456.69, 
+			['y'] = -985.99, 
+			['z'] = 26.67, 
+			['Information'] = '[E] Go Down' 
+		}
+	}
 	--Next here
 }
 

@@ -1,8 +1,10 @@
-INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
-	('cannabis', 'Cannabis', 40, 0, 1),
-	('marijuana', 'Marijuana', 14, 0, 1)
-;
-
-INSERT INTO `licenses` (`type`, `label`) VALUES
-	('weed_processing', 'Weed Processing License')
+INSERT INTO `items` (name, label, `limit`) VALUES
+	('weed', 'Weed', 50),
+	('weed_pooch', 'Pochon de weed', 25),
+	('coke', 'Coke', 50),
+	('coke_pooch', 'Pochon de coke', 25),
+	('meth', 'Meth', 50),
+	('meth_pooch', 'Pochon de meth', 25),
+	('opium', 'Opium', 50),
+	('opium_pooch', 'Pochon de opium', 25)
 ;
